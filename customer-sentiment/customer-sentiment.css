@@ -1,0 +1,31 @@
+
+.btn-thumsup {
+    background-color: beige;
+    color: var(--primary-color);
+  }
+  
+  .btn-thumsup:hover {
+    background-color: rgb(227, 227, 201);
+    color: var(--primary-color-hover);
+  }
+
+  .btn-thumsdown {
+    background-color: rgb(222, 212, 198);
+    color: var(--primary-color);
+  }
+  
+  .btn-thumsdown:hover {
+    background-color: rgb(220, 182, 133);
+    color: var(--primary-color-hover);
+  }
+  .btn-dark {
+    background-color: var(--primary-color-hover);
+  }
+  .date-column {
+    /* min-width: 200px; */
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }

@@ -1,0 +1,102 @@
+th {
+  font-weight: 600;
+}
+
+.manageUsers {
+  text-align: left;
+}
+
+.table-design {
+  max-height: 78vh;
+  overflow-y: auto;
+}
+
+.table-admin-design {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.table-design .table > tbody tr > td {
+  border-right: 1px solid #a7b9b1;
+}
+
+.table-design .table > tbody tr > th {
+  border-right: 1px solid #a7b9b1;
+}
+
+.table-admin-design .table > tbody tr > td {
+  border-right: 1px solid #a7b9b1;
+}
+
+.table-admin-design .table > tbody tr > th {
+  border-right: 1px solid #a7b9b1;
+}
+
+.fixed-header {
+  font-size: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-right: 1px solid #a7b9b1;
+}
+
+.fixed-header > tr > th {
+  font-size: 16px !important;
+}
+
+.column-width {
+  min-width: 250px !important;
+}
+
+.filters {
+  width: 55%;
+  height: 10%;
+}
+
+.btn-custom {
+  border: 1px solid black;
+}
+
+.risk-button {
+  width: auto;
+  margin-right: 5px;
+  background-color: var(--primary-color);
+}
+
+.risk-button:disabled {
+  cursor: not-allowed;
+}
+
+.reset-button {
+  width: auto;
+}
+
+.history-icon {
+  padding: 0px;
+  width: 20px;
+}
+
+.filter-icon {
+  margin-right: 10px;
+}
+
+.download-icon {
+  padding: 0 !important;
+  margin-right: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+.download-icon:disabled {
+  border: none !important;
+}
+
+.open-button {
+  background-color: var(--yellow);
+  color: black;
+}
+
+.open-button:hover {
+  background-color: var(--yellow);
+  color: black;
+}

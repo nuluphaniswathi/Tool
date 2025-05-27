@@ -1,0 +1,17 @@
+.error-msg {
+    color: var(--orangered);
+    font-size: 16px;
+  }
+
+.form-label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.raid-log-button {
+    width: 25%;
+}
+
+.raid-log-button:disabled:hover {
+    cursor: not-allowed !important;
+}

@@ -1,0 +1,30 @@
+.selected-risk {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 1px;
+}
+
+.selected-risk-text {
+  margin-right: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 2.4em;
+  white-space: normal;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+}
+
+.remove-risk-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  margin-top: 3px;
+}

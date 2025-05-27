@@ -1,0 +1,9 @@
+export const primary_color = "#043b64";
+export const primary_color_hover = "#7bd4ec";
+export const orangered = "#ea4949";
+export const orange = "#ff843d";
+export const green = "#60c476"
+export const darkGreen = "#006400"
+export const yellow = "#ffed47";
+export const dashboardGreen ="#b8f5cd"
+export const grey = "#D3D3D3"

@@ -1,0 +1,26 @@
+.confirmation-header {
+    background-color: #f7fbf8;
+}
+
+.alert-text {
+    margin: 0;
+    color: var(--orangered);
+    font-weight:600;
+}
+
+.confirmation-body {
+    padding:20px;
+}
+.confirmation-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.button {
+    margin-right: 10px;
+}

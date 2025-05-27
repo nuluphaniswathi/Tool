@@ -1,0 +1,91 @@
+.placeholder {
+  border: 1px solid lightgrey;
+  padding: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  color: black;
+  opacity: 1;
+}
+
+.placeholder svg {
+  fill: black;
+  padding-right: 7px;
+  font-size: 23px;
+}
+
+.options {
+  position: relative;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100;
+  padding: 0;
+  margin: 0;
+  border: 1px solid lightgrey;
+  background-color: #fff;
+  margin-bottom: 15px;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.options li {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.options li span {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.toggle {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.selected-option {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 1px;
+}
+
+.selected-option-text {
+  margin-right: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.remove-option-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}

@@ -1,0 +1,161 @@
+.chatBot {
+  width: 400px;
+  height: 500px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 40px;
+  border: none;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.chatBotHeader {
+  background-color: #043b64;
+  padding: 10px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.veltris-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: 15px;
+  object-fit: contain;
+  padding: 2px;
+}
+
+.chatBotHeader span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: white;
+  margin-right: 20px;
+}
+.chatBotHeader button {
+  border: none;
+  background: transparent;
+  margin-left: auto;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.chatHistory {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #f4f6f9;
+}
+.chatForm {
+  display: flex;
+  padding: 5px;
+  background-color: #f1f1f1;
+}
+.chatForm input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+.chatForm button {
+  /* padding: 10px 15px; */
+  border-radius: 10px 10px 10px 10px;
+  border: none;
+  background-color: #043b64;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.chatForm button:hover {
+  background-color: #7bd4ec;
+}
+.chatBubble {
+  /* max-width: 70%; */
+  padding: 10px 15px;
+  margin: 5px;
+  word-wrap: break-word;
+  max-width: fit-content;
+}
+.chatBubble.user {
+  background-color: #cfe2ff;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 15px;
+  color: black;
+  font-size: 15px;
+  border-radius: 15px 15px 0px 15px;
+}
+.chatBubble.bot {
+  background-color: #043b64;
+  text-align: left;
+  /* font-weight: bold; */
+  margin-right: 100px;
+  margin-left: 15px;
+  color: white;
+  font-size: 15px;
+  border-radius: 0px 15px 15px 15px;
+}
+.imageResponseCard {
+  text-align: center;
+  .subtitle {
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+.imageResponseCard .title {
+  /* font-weight: bold; */
+  font-size: 15px;
+  background-color: #043b64; 
+  color: white;
+  padding: 2px;
+  /* border: 2px solid black; */
+  /* border-radius: 20px; */
+  /* display: inline-block; */
+  /* margin-bottom: 10px; */
+  width: fit-content;
+  text-align: left;
+}
+.imageResponseCard .buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imageResponseCard .buttonContainer button {
+  padding: 10px;
+  background-color: #ececec;
+  color: #043b64;
+  border: 1px solid #043b64;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  /* max-width: 500px; */
+}
+.imageResponseCard .buttonContainer button:hover {
+  background-color: #7bd4ec;
+}
+.showMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ececec;
+  padding: 5px;
+  border: 1px solid #043b64;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 80px;
+  font-size: 10px;
+  color: black;
+  margin-left: auto;
+  font-weight: bold;
+}

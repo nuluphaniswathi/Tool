@@ -1,0 +1,63 @@
+.dashboard {
+  padding: 10px;
+  padding-right: 0px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.overview-text {
+  font-size: 14px;
+  text-align: start;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.gdo-button {
+  width: 100px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.gdo-button:hover{
+  background-color: var(--primary-color-hover);
+}
+
+.left-section {
+  display: none;
+}
+
+.col-6 {
+  width: 49%;
+}
+
+.col-12 {
+  width: 98%;
+}
+
+.vertical-line {
+  height: 700px;
+  border-left: 1px solid #fff;
+  margin: 0 5px;
+  width: 1px;
+  padding: 0;
+}
+
+.welcome-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.buttons {
+  margin-right: -350px;
+}
+.centered-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+};
